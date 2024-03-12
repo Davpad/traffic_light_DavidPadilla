@@ -10,3 +10,55 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#trafficTop{
+    height: 100px;
+    width: 15px;
+    background-color: black;
+}
+
+#container{
+    width: 150px;
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.light{
+    height: 100px;
+    width: 100px;
+}
+
+.red{
+    background-color: red;
+}
+
+.redLight{
+    background-color: rgb(255, 130, 130);
+    box-shadow: 0 0 30px 20px white;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.yellowLight{
+    background-color: rgb(247, 247, 104);
+    box-shadow: 0 0 30px 20px white;
+}
+
+.green{
+    background-color: green;
+}
+
+.greenLight{
+    background-color: rgb(92, 253, 92);
+    box-shadow: 0 0 30px 20px white;
+}
+
+.on{
+    box-shadow: 0 0 30px 20px white;
+}
+
+.off{
+    box-shadow: 0 0 0 0 ;
+}
